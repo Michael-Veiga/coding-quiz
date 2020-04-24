@@ -2,10 +2,31 @@
     box-sizing: border-box;
 }
 
+#nav {
+    display: block;
+    background-color: white;
+    display: inline-block;
+    width: 99vw;
+    border:3px solid red;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.display-left {
+    float: left;
+    padding-left: 10px;
+}
+
+.display-right {
+    float: right;
+    padding-right: 50px;
+}
+
 body {
     padding: 0;
     margin: 0;
-    display: flex;
+    display: inline-block;
+    /* flex-direction: column; */
     width: 100vw;
     height: 30vw;
     justify-content: center;
@@ -20,12 +41,19 @@ body {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+    margin: 0 auto;
 }
 
 .btn-grid {
     display: grid;
     gap: 10px;
     margin: 30px 0;
+}
+
+#quiz-title {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btn {

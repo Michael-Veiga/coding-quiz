@@ -8,9 +8,24 @@
     <title>Coding Quiz</title>
 
 </head>
+<header>
+    <div id="nav">
+        <div class="display-left">
+            <a onclick="getScore()" href="#">
+                <h3>Highscores</h3>
+            </a>
+        </div>
+        <div class="display-right">
+            <h3>Time Remaining: <span id="timer">0</span></h3>
+        </div>
+    </div>
+</header>
 
 <body>
-    <div class="container">
+    <div class=" container">
+        <div id="quiz-title">
+            <h4>Javascript Quiz</h4>
+        </div>
         <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
