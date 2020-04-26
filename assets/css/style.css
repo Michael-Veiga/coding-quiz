@@ -44,6 +44,11 @@ body {
     margin: 0 auto;
 }
 
+#question {
+    text-align: center;
+    font-size: x-large;
+}
+
 .btn-grid {
     display: grid;
     gap: 10px;

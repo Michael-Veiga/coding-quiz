@@ -11,8 +11,8 @@
 <header>
     <div id="nav">
         <div class="display-left">
-            <a onclick="getScore()" href="#">
-                <h3>Highscores</h3>
+            <a onclick="getScore()" href="scores.html">
+                <h3>High Scores</h3>
             </a>
         </div>
         <div class="display-right">
@@ -22,18 +22,19 @@
 </header>
 
 <body>
-    <div class=" container">
+    <div class="container">
         <div id="quiz-title">
             <h4>Javascript Quiz</h4>
         </div>
         <div id="question-container" class="hide">
             <div id="question">Question</div>
             <div id="answer-buttons" class="btn-grid">
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
+                <!-- <button id="btn1" class="btn">Answer 1</button>
+                <button id="btn2" class="btn">Answer 2</button>
+                <button id="btn3" class="btn">Answer 3</button>
+                <button id="btn4" class="btn">Answer 4</button> -->
             </div>
+            <p class="feedback"></p>
         </div>
         <div class="controls">
             <button id="start-btn" class="start-btn btn">Start Quiz</button>
